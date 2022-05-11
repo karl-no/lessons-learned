@@ -35,13 +35,19 @@ nav {
     margin-top: 15px;
 }
 
-#listas {
-    display: inline;
+#licoes_aprendidas, #licoes_a_aprender {
+    display: inline-block;
+}
+
+.lado-esquerdo {
+    display: inline-block;
     left: 10px;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
+.lado-direito {
     display: inline-block;
+    left: 50px;
+    top: 100px;
 }
 
 section, article, aside, footer {
@@ -69,6 +75,7 @@ article, aside {
     height: 50px;
     text-align: center;
     width: 100%;
+    margin: 10px;
 }
 
 a {
@@ -88,6 +95,6 @@ td {
 }
 
 td:hover, a:hover {
-    font-size: 18px;
+    font-size: 20px;
     background-color: rgb(2, 83, 2);
 }
