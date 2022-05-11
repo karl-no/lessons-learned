@@ -1,14 +1,83 @@
 body {
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(253, 251, 251); /* REQUISITO*/
+    margin: 0;
 }
 
 #cabecalho {
     background-color: green;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
     position: fixed;
-    top: 0;
+    width: 100%;
+    top: 0;          /* REQUISITO*/
+    color: white;
+    height: 140px;
+    z-index: 1;
+}
+
+#titulo {
+    text-align: center;
+    display: block;
+}
+
+nav {
+    color: white;
+    font-size: 16px;
+    margin: 15px;;
+}
+
+#minha_foto {
+    width: 250px;
+    display: block;
+    position: relative;
+    top: 140px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#listas {
+    display: inline;
+    left: 10px;
+}
+
+#licoes_aprendidas, #licoes_a_aprender {
+    display: inline-block;
+}
+
+section, article, aside, footer {
+    font-family: 'PT Serif', serif;
+    position: relative;
+    font-weight: 500;
+    top: 130px;
+}
+
+section, #licoes, article, aside {
+    margin-left: 15px;
+}
+
+article, aside {
+    border: 1px solid rgb(71, 70, 70);
+    border-radius: 5px;
+    box-shadow: 3px 3px;
+
 }
 
 #rodape {
     background-color: green;
     color: white;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-weight: 500;
+}
+
+footer a {
+    position: relative;
+    top: 10px;
 }
