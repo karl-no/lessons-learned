@@ -82,3 +82,12 @@ footer a {
     position: relative;
     top: 10px;
 }
+
+td {
+    border: 2px solid white;
+}
+
+td:hover, a:hover {
+    font-size: 18px;
+    background-color: rgb(2, 83, 2);
+}
