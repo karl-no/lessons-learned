@@ -56,10 +56,11 @@ section, #licoes, article, aside {
 }
 
 article, aside {
-    border: 1px solid rgb(71, 70, 70);
+    border: 1px dotted rgb(71, 70, 70);
     border-radius: 5px;
-    box-shadow: 3px 3px;
-
+    box-shadow: 2px 2px;
+    width: 40%;
+    padding: 20px;
 }
 
 #rodape {
