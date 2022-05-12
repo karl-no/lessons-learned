@@ -5,20 +5,26 @@ body {
 
 #cabecalho {
     background-color: green;
-    font-family: 'Poppins', sans-serif;
     font-size: 18px;
+    font-weight: 400;
+    color: white;
+    word-spacing: 10px;
+    font-family: 'Poppins', sans-serif;
     position: fixed;
     width: 100%;
     top: 0;          /* REQUISITO*/
-    color: white;
     height: 140px;
     z-index: 1;
 }
+/* 
+Altere o tamanho da letra
+Altere a cor da letra
+Altere o espaçamento entre as linhas
+Altere o font-family */
 
 #titulo {
     text-align: center;
     display: block;
-    word-spacing: 10px;
 }
 
 nav {
