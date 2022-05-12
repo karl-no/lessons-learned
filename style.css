@@ -72,10 +72,10 @@ article, aside {
 #rodape {
     background-color: green;
     color: white;
-    height: 50px;
+    height: 80px;
     text-align: center;
     width: 100%;
-    margin: 10px;
+   
 }
 
 a {
@@ -85,9 +85,14 @@ a {
     font-weight: 500;
 }
 
+footer p {
+    padding-top: 20px;
+}
+
 footer a {
     position: relative;
-    top: 10px;
+    display: block;
+    font-size: 18px;
 }
 
 td {
@@ -95,6 +100,11 @@ td {
 }
 
 td:hover, a:hover {
+    font-size: 20px;
+    background-color: rgb(2, 83, 2);
+}
+
+a:hover {
     font-size: 20px;
     background-color: rgb(2, 83, 2);
 }
